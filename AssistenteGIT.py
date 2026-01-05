@@ -146,19 +146,7 @@ class AssistenteGit(QWidget):
         
         # Modelo de texto pré-definido
         modelo_readme = (
-            "# 🚀 Multi Conversor Pro\n\n"
-            "Software de alta performance para conversão em massa de arquivos multimídia.\n\n"
-            "### 🛠 Recursos\n"
-            "* **Imagens:** Conversão entre JPG, PNG, BMP e ICO.\n"
-            "* **Áudio:** Conversão de alta fidelidade entre MP3, WAV, FLAC e OGG.\n"
-            "* **Vídeo:** Conversão de formatos MP4, AVI, MOV e MKV.\n\n"
-            "### ⚙️ Requisitos (FFmpeg)\n"
-            "1. Baixe o FFmpeg em ffmpeg.org\n"
-            "2. Adicione a pasta /bin às Variáveis de Ambiente (Path) do Windows.\n\n"
-            "### 💻 Tecnologias\n"
-            "- Interface: PyQt5\n"
-            "- Estilização: QSS\n"
-            "- Motores: Pydub, FFmpeg e Pillow"
+            ""
         )
 
         self.conteudo_readme = QTextEdit()
