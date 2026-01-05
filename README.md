@@ -22,7 +22,7 @@ Clique em Atualizar GIT. Insira o texto do commit para registro da atualização
 1. Necessário criar um arquivo resources.qrc e editá-lo, incluindo o caminho onde estão as imagens dentro de RCC:
 **exemplo:**
 
-```xml <RCC> <qresource prefix="/"> <file>img/favicon.png</file> </qresource> </RCC>
+```xml <RCC> <qresource prefix="/"> <file>img/favicon.png</file> </qresource> </RCC>```
 
 2. No terminal, navegar até a pasta onde está o arquivo resources.qrc e executar o comando: **pyrcc5 resources.qrc -o resources_rc.py**
 
