@@ -26,7 +26,8 @@ Clique em Atualizar GIT. Insira o texto do commit para registro da atualização
 <RCC> 
 	<qresource prefix="/"> 
 		<file>img/favicon.png</file> 
-	</qresource> </RCC>
+	</qresource> 
+</RCC>
 ```
 
 2. No terminal, navegar até a pasta onde está o arquivo resources.qrc e executar o comando: **pyrcc5 resources.qrc -o resources_rc.py**
