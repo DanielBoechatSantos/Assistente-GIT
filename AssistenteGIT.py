@@ -5,6 +5,8 @@ from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QPushButton,
                              QLineEdit, QTextEdit, QLabel, QMessageBox, 
                              QStackedWidget, QFileDialog, QListWidget, QAbstractItemView)
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QIcon
+import resources_rc
 
 class AssistenteGit(QWidget):
     def __init__(self):
@@ -14,6 +16,7 @@ class AssistenteGit(QWidget):
 
     def initUI(self):
         self.setWindowTitle('Assistente GIT')
+        self.setWindowIcon(QIcon(":/img/favicon.png"))
         self.setFixedSize(550, 700)
         
         self.setStyleSheet("""
